@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Barlow:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.scanner {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1vw;
+  width: 22vw;
+  height: 65vh;
+}
+.scanner img {
+  border-radius: 1vw;
+  width: 80%;
+  height: 60%;
+  margin: 1.5vw 1.9vw;
+}
+.container {
+  width: 77%;
+  margin: -1.5vw 2.5vw;
+}
+.container h2 {
+  font-family: "Barlow", sans-serif;
+
+  font-weight: bolder;
+  color: #1d1f1f;
+}
+.container p {
+  font-family: "Barlow", sans-serif;
+  padding: 1vw 1vw;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 50s;
+}
+@media (max-width: 600px) {
+  .scanner {
+    width: 50%;
+    max-height: 55vh;
+  }
+  .scanner img {
+    max-width: 80%;
+    margin: 3vw 5vw;
+    height: 50%;
+  }
+  .container {
+    width: 100%;
+  }
+  .container h2 {
+    font-size: 3.5vw;
+    padding: 0px 4vw;
+  }
+  .container p {
+    font-size: 2.6vw;
+    padding: 4vw 6vw;
+    margin-right: 2vw;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .scanner {
+    width: 50%;
+    height: 60%;
+  }
+  .scanner img {
+    width: 60%;
+    height: 50%;
+    margin: 4vw 9vw;
+  }
+  .container {
+    margin: -4vw 6vw;
+  }
+
+  .container h2 {
+    padding: 0px 1vw;
+    font-size: 3vw;
+  }
+  .container p {
+    font-size: 2vw;
+    padding: 0vw 1vw;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .scanner {
+    width: 54%;
+    height: 80vh;
+  }
+  .scanner img {
+    width: 60%;
+    height: 50%;
+    margin: 4vw 10vw;
+  }
+  .container {
+    margin: -4vw 5vw;
+  }
+
+  .container h2 {
+    padding: 0px 4vw;
+    font-size: 3vw;
+  }
+  .container p {
+    font-size: 2vw;
+    padding: 1vw 4vw;
+  }
+}
